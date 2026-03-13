@@ -54,18 +54,27 @@ To compile the source code files, ensure you have `gcc` installed. Open your ter
 ```bash
 # Compile the Client
 gcc client.c -o client -lpthread
+```
 
+```bash
 # Compile Server 1 (Poll)
 gcc q1_poll.c -o q1_poll
+```
 
+```bash
 # Compile Server 2 (Multithreading)
 gcc q2_thread.c -o q2_thread -lpthread
+```
 
+```bash
 # Compile Server 3 (Select)
 gcc q3_select.c -o q3_select
+```
 
+```bash
 ## Running Instructions
 You must start a server first before connecting any clients.
+```
 
 **Step 1: Start the Server**  
 Open a terminal and run ONE of the compiled server executables:
