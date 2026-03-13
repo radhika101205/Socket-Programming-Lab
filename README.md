@@ -93,8 +93,13 @@ Open multiple new terminal windows. In each new window, run the client executabl
 **Step 3: Test the Chat**  
 Type a message into one of the client terminals and press Enter. You will see the message instantly appear in all other connected client terminals. Press Ctrl+C in a client terminal to test graceful disconnection.
 
-## Testing Screenshots
-1. ![Server](screenshots/server.png)
-2. ![client A](screenshots/clientA.png)
-3. ![Client B](screenshots/clientB.png)
+### Testing Screenshots
 
+### 1. Server Terminal
+![Server](screenshots/server.png)
+
+### 2. Client A Terminal
+![Client A](screenshots/clientA.png)
+
+### 3. Client B Terminal
+![Client B](screenshots/clientB.png)
