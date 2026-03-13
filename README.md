@@ -71,10 +71,10 @@ gcc q2_thread.c -o q2_thread -lpthread
 gcc q3_select.c -o q3_select
 ```
 
-```bash
+
 ## Running Instructions
 You must start a server first before connecting any clients.
-```
+
 
 **Step 1: Start the Server**  
 Open a terminal and run ONE of the compiled server executables:
@@ -82,17 +82,19 @@ Open a terminal and run ONE of the compiled server executables:
 ./q1_poll
 ./q2_thread
 ./q3_select
+```
 
 **Step 2: Start the Clients**  
 Open multiple new terminal windows. In each new window, run the client executable to connect to the active server:
 ```bash
 ./client
+```
 
 **Step 3: Test the Chat**  
 Type a message into one of the client terminals and press Enter. You will see the message instantly appear in all other connected client terminals. Press Ctrl+C in a client terminal to test graceful disconnection.
 
 ## Testing Screenshots
 1. ![Server](screenshots/server.png)
-2. ![clientA](screenshots/clientA.png)
+2. ![client A](screenshots/clientA.png)
 3. ![Client B](screenshots/clientB.png)
 
